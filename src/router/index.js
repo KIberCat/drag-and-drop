@@ -27,6 +27,14 @@ const routes = [
     meta: {
       layout: 'auth'
     }
+  },
+  {
+    path: '/error',
+    name: 'Error',
+    component: () => import('../pages/error/index.vue'),
+    meta: {
+      layout: 'error'
+    }
   }
 ]
 
